@@ -6,9 +6,9 @@ class Parameters:
     """All model parameters. Default values are those of DICE 2016"""
 
     # model setup
-    timestep: int = 5
-    start_year: int = 2010
-    n_timesteps: int = 100
+    timestep: int = 1
+    start_year: int = 2024
+    n_timesteps: int = 35
 
     # optimization settings
     max_iterations: int = 500
